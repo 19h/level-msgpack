@@ -1,6 +1,6 @@
 var msgpack = require("msgpack");
 
-exports.lmp = {
+module.exports = {
 	encode: msgpack.pack,
 	decode: msgpack.unpack,
 	buffer: true,

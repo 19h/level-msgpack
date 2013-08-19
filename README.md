@@ -14,7 +14,7 @@ Usage
 Just include `level-msgpack` and pass it as either key- or valueEncoding.
 
 	var level = require("level"),
-		lmp = require("level-msgpack").lmp;
+		lmp = require("level-msgpack");
 
 	var db = level("test");
 

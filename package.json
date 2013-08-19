@@ -1,6 +1,6 @@
 {
 	"name": "level-msgpack",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "The msgpack encoding for level.",
 	"main": "./lmp.js",
 	"dependencies": {

@@ -2,7 +2,7 @@
 var level = require("level");
 
 // level-msgpack
-var lmp = require("../").lmp;
+var lmp = require("../");
 
 // level
 var db = level(__dirname + "/db");
