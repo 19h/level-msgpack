@@ -1,13 +1,13 @@
 {
 	"name": "level-msgpack",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "The msgpack encoding for level.",
 	"main": "./lmp.js",
 	"dependencies": {
-		"msgpack": "*"
+		"msgpack": "0.1.11"
 	},
 	"devDependencies": {
-		"level": "*"
+		"level": "0.14.0"
 	},
 	"scripts": {
 		"test": "node ./test/lmp.js"
