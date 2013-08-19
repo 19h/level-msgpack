@@ -2,9 +2,15 @@
 	"name": "level-msgpack",
 	"version": "0.0.1",
 	"description": "The msgpack encoding for level.",
-	"main": "lmp.js",
+	"main": "./lmp.js",
 	"dependencies": {
-		"node-msgpack": "*"
+		"msgpack": "*"
+	},
+	"devDependencies": {
+		"level": "*"
+	},
+	"scripts": {
+		"test": "node ./test/lmp.js"
 	},
 	"repository": {
 		"type": "git",
@@ -17,6 +23,5 @@
 		"msgpack",
 		"encoding"
 	],
-	"author": "Kenan Sulayman <kenan@sly.mn>",
-	"license": "Aferro GPL"
+	"author": "Kenan Sulayman <kenan@sly.mn>"
 }
