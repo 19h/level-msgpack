@@ -23,7 +23,7 @@ Just include `level-msgpack` and pass it as either key- or valueEncoding.
 	}, function () {
 		db.get("key", {
 			valueEncoding: lmp
-		}, function (str) {
+		}, function (err, str) {
 			// str => { key: "value" }
 		});
 	});
